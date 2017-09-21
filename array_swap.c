@@ -10,8 +10,7 @@ int main(){
 
   //from 1 to 10 inclusive randomly find a number and assign it. 
   while (i<=10){
-    srand(i);
-    b[i-1]=rand();
+    b[i-1]= rand();
     //printf("%d\n",rand());
     i++;
   }
