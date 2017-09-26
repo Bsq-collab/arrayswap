@@ -4,12 +4,12 @@
 
 int main(){
   int b[10];
-  int i=1;// changed it to i=1 because when it was 0 the first 2 indices had the same rand val.  
+  int i=0;
 
   srand(time(NULL));
 
   //from 1 to 10 inclusive randomly find a number and assign it. 
-  while (i<=10){
+  while (i<10){
     b[i-1]= rand();
     //printf("%d\n",rand());
     i++;
